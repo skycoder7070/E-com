@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   border: 9px solid;
+   border-color: #474bff #0000;
+   animation: spinner-0tkp9a 1s infinite;
+}
+
+@keyframes spinner-0tkp9a {
+   to {
+      transform: rotate(.5turn);
+   }
+}
